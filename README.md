@@ -1,0 +1,1 @@
+Base website for a project that a friend asked me to do, Elo job, the file "site base idea.html" shows the idea a little more, while "index.html" shows the result of it. It is currently in its initial phase, but I want to document everything here so that it can serve as an experiment.
