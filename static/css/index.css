@@ -1,0 +1,90 @@
+
+.body-1 {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(115, 115, 115, 1) 100%);
+    z-index: 0;
+}
+
+.body-2 {
+    background: linear-gradient(90deg, rgba(255, 222, 89, 1) 0%, rgba(255, 145, 77, 1) 100%);
+    z-index: 0;
+}
+
+.body-3 {
+    background: linear-gradient(90deg, rgba(255, 222, 89, 1) 0%, rgba(255, 145, 77, 1) 100%);
+    z-index: 0;
+}
+
+.body-4 {
+    background: linear-gradient(90deg, rgba(255, 222, 89, 1) 0%, rgba(255, 145, 77, 1) 100%);
+    z-index: 0;
+}
+
+.body-5 {
+    background: linear-gradient(90deg, rgba(166, 166, 166, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    z-index: 0;
+}
+
+.body-6 {
+    background: linear-gradient(90deg, rgba(166, 166, 166, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    z-index: 0;
+}
+
+.rank-image-1 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 45%; 
+    left: -8%;
+    transform: translateY(-50%); 
+    height: auto; 
+}
+
+.rank-image-1:hover {
+    
+}
+
+.rank-image-2 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 50%; 
+    left: -2%;
+    transform: translateY(-50%); 
+    height: auto; 
+}
+
+.rank-image-3 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%); 
+    height: auto; 
+}
+
+.rank-image-4 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%); 
+    height: auto; 
+}
+
+.rank-image-5 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%); 
+    height: auto; 
+}
+
+.rank-image-6 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%); 
+    height: auto; 
+}

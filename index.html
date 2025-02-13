@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrolling Sections</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="static/css/index.css">
+    <style>
+        /* Estilização personalizada para body-1 */
+        .body-1 {
+            position: relative; /* Necessário para posicionar elementos absolutos dentro */
+            background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(115, 115, 115, 1) 100%);
+        }
+
+        /* Imagem do título */
+        .tittle-b1 {
+            position: absolute;
+            top: 80px;
+            left: 12px;
+            width: auto;
+            height: auto;
+        }
+
+        /* Borda lateral esquerda */
+        .left-border-b1 {
+            position: absolute;
+            top: 0;
+            left: -5%;
+            height: 100%;
+            width: auto;
+        }
+
+        /* Borda lateral direita */
+        .right-border-b1 {
+            position: absolute;
+            top: 0;
+            right: 1%;
+            height: 100%;
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Seção 1 -->
+    <div class="section body-1">
+        <img src="static/images/tittle-b1.png" alt="Title" class="tittle-b1">
+        <img src="static/images/left-border-b1.png" alt="Left Border" class="left-border-b1">
+        <img src="static/images/right-border-b1.png" alt="Right Border" class="right-border-b1">
+
+        <div>
+            <div class="title-b1">What is your current rank?</div>
+            <div class="subtitle-b1">Get your desired rank with a little help!</div>
+            <div class="rank-grid">
+                <div class="rank-card">
+                    <img src="static/images/rank-iron.png" alt="Iron" class="rank-image-1">
+                    <div class="rank-text"></div>
+                </div>
+                <div class="rank-card">
+                    <img src="static/images/rank-bronze.png" alt="Bronze" class="rank-image-2">
+                    <div class="rank-text"></div>
+                </div>
+                <div class="rank-card">
+                    <img src="static/images/rank-silver.png" alt="Silver" class="rank-image-3">
+                    <div class="rank-text"></div>
+                </div>
+
+                <div class="rank-card">
+                    <img src="static/images/rank-gold.png" alt="Gold" class="rank-image-4">
+                    <div class="rank-text"></div>
+                </div>
+                <div class="rank-card">
+                    <img src="static/images/rank-platinum.png" alt="Platinum" class="rank-image-5">
+                    <div class="rank-text"></div>
+                </div>
+                <div class="rank-card">
+                    <img src="static/images/rank-emerald.png" alt="Emerald" class="rank-image-6">
+                    <div class="rank-text"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Outras seções -->
+    <div class="section body-2">
+        <h1>Section 2</h1>
+    </div>
+    <div class="section body-3">
+        <h1>Section 3</h1>
+    </div>
+    <div class="section body-4">
+        <h1>Section 4</h1>
+    </div>
+    <div class="section body-5">
+        <h1>Section 5</h1>
+    </div>
+    <div class="section body-6">
+        <h1>Section 6</h1>
+    </div>
+</body>
+</html>
